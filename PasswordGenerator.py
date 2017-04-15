@@ -96,7 +96,7 @@ print(first_big_numbers_last(number_of_characters))
 print(mixed(number_of_characters))
 print(words_pass(number_of_characters))
 
-file = open('pass.txt','w')
+file = open('/home/bartek/Documents/program/pass.txt','w')
 file.write(generate_random(number_of_characters)+'\n'+
 first_big_numbers_last(number_of_characters)+'\n'+
 mixed(number_of_characters)+'\n'+
